@@ -200,6 +200,7 @@ body {
 }
 
 .offers__list .p {
+    /*текст*/
     position: absolute;
     width: 324px;
     height: 63px;
@@ -249,7 +250,7 @@ body {
     width: 36px;
     height: 26px;
     top: 1106px;
-    background: url(meal.jpg);
+    background: url(/my-project/food.jpg);
 }
 
 .offers__list .conditions__pic {
