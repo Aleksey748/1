@@ -31,17 +31,17 @@ body {
     color: #FFFFFF;
 }
 
-.menu__link1 {
+#menu .menu__link1 {
     /* Главная */
     left: 554px;
 }
 
-.menu__link2 {
+#menu .menu__link2 {
     /* Услуги */
     left: 664px;
 }
 
-.menu__link3 {
+#menu .menu__link3 {
     /* Отзывы */
     left: 764px;
 }
