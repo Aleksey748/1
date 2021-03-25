@@ -108,7 +108,6 @@ body {
     left: 400px;
     top: 460px;
 
-    font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -140,7 +139,6 @@ body {
     left: 430px;
     top: 492px;
 
-    font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -161,7 +159,6 @@ body {
     left: 392px;
     top: 775px;
 
-    font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -184,7 +181,6 @@ body {
 
 .offers__list .h5 {
     /*Заголовки предложений*/
-    font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -200,7 +196,6 @@ body {
     width: 72px;
     height: 21px;
     top: 1108px;
-    font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -217,7 +212,6 @@ body {
     width: 324px;
     height: 63px;
     top: 1155.5px;
-    font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -235,7 +229,6 @@ body {
     height: 22px;
     top: 1108px;
 
-    font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -280,7 +273,6 @@ body {
     width: 76px;
     height: 19px;
     top: 242px;
-    font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -405,7 +397,7 @@ body {
     top: 875px;
 
     background: url(indonezia.jpg);
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 0px 0px;}
 
     .indonezia__content .block {
         left: 1167px;
@@ -455,8 +447,6 @@ body {
         height: 49px;
         left: 390px;
         top: 1451px;
-
-        font-family: Open Sans;
         font-style: normal;
         font-weight: bold;
         font-size: 36px;
@@ -491,8 +481,6 @@ body {
         width: 94px;
         height: 21px;
         top: 1803.5px;
-
-        font-family: Open Sans;
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
@@ -509,7 +497,6 @@ body {
         width: 417px;
         height: 36px;
         top: 1837px;
-        font-family: Open Sans;
         font-style: normal;
         font-weight: bold;
         font-size: 24px;
@@ -521,7 +508,6 @@ body {
 
     .discounts__itame {
         /* Текста под зоголовками */
-        font-family: Open Sans;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
