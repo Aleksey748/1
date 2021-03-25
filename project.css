@@ -121,7 +121,20 @@ body {
     color: #FFFFFF;
 }
 
+.topic .rectangle {
+    /* Прямоугольник*/
+    position: absolute;
+    width: 168px;
+    height: 55px;
+    background: #F5170E;
+    border-radius: 35px;
+}
+.topic .rectangle {
+    left: 390px;
+    top: 474px;
+}
 .topic a {
+    /*ПОДРОБНЕЕ*/
     position: absolute;
     width: 88px;
     height: 19px;
@@ -250,7 +263,7 @@ body {
     width: 36px;
     height: 26px;
     top: 1106px;
-    background: url(/my-project/food.jpg);
+    background: url(food.jpg);
 }
 
 .offers__list .conditions__pic {
