@@ -1,544 +1,225 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 body {
-    font-family: "Open sanS; sans-serif";
+    font-family: "Open sanS; Helvetica; sans-serif";
+    background: #3a2f2f;
+    color: white;
+    font-size: 16px;
+    line-height: 1.42;
+    -webkit-font-smoothung: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
-
+a {
+    color: inherit;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    list-style: none;
+}
+h1, h2, h3 ,h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+* {
+    box-sizing: border-box;
+}
+.conteiner {
+    margin: 0 auto;
+    width: 1140px;
+}
+.header {
+    height: 120px;
+    position: relative;
+    margin-bottom: 76px;
+}
 .logo__pic {
+    display: block;
     position: absolute;
-    width: 85px;
-    height: 36px;
-    left: 390px;
-    top: 29px;
+    left: 0px;
+    top: 24px;
 }
-
-#menu {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
+.menu {
+    position: absolute;
+    top: 31px;
+    left: 165px;
+}
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+.menu__link1 {
+    margin-right: 8px;
     font-size: 14px;
-    line-height: 19px;
-    /* identical to box height */
-
-    display: flex;
-    align-items: center;
+    text-decoration: none;
+}
+.contacts {
     position: absolute;
-    width: 56px;
-    height: 19px;
-    left: 554px;
-    top: 42px;
-
-    color: #FFFFFF;
-}
-
-#menu__item .menu__link1 {
-    /* Главная */
-    left: 554px;
-}
-
-#menu__item .menu__link2 {
-    /* Услуги */
-    left: 664px;
-}
-
-#menu__item .menu__link3 {
-    /* Отзывы */
-    left: 764px;
-}
-
-.contacts .contacts__phone {
-    position: absolute;
-    width: 191px;
-    height: 35px;
-    left: 1340px;
-    top: 26.64px;
-
-    font-family: Open Sans;
+    top: 18px;
+    right: 0;
+    text-align: right;
     font-style: normal;
-    font-weight: normal;
-    font-size: 26px;
-    line-height: 35px;
-    display: flex;
-    align-items: center;
-
-    color: #FFFFFF;
 }
-
-.contacts .contacts__workhours {
-    position: absolute;
-    width: 97px;
-    height: 20px;
-    left: 1432px;
-    top: 55.14px;
-
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
+.contacts__phone {
+    font-size: 27px;
+    text-decoration: none;
+}
+.contacts__workhours {
     font-size: 13px;
-    line-height: 20px;
-    /* identical to box height, or 154% */
-
-    display: flex;
-    align-items: center;
-    text-decoration-line: underline;
-    color: #FFFFFF;
+    text-decoration: underline;
+}
+.time {
+font-size: 13px;
+color: black;
+margin-right: 35px;
+}
+.topic {
+    width: 520px;
+    margin-bottom: 127px;
 }
 
-.topic h1 {
-    position: absolute;
-    width: 511px;
-    height: 197px;
-    left: 390px;
-    top: 196px;
-
-    font-family: Open Sans;
-    font-style: normal;
+.tittle__tur {
     font-weight: bold;
     font-size: 72px;
-    line-height: 98px;
-    display: flex;
-    align-items: flex-end;
-    color: #FFFFFF;
+    line-height: 1.3;
+    margin-bottom: 29px;
 }
 
 .topic .topic__text {
-    position: absolute;
-    width: 196px;
-    height: 20px;
-    left: 400px;
-    top: 460px;
-
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
-    line-height: 20px;
-    /* identical to box height, or 111% */
+    margin-bottom: 31px;
+}
+.hotturs{
+    margin-bottom: 127;
+}
+.button {
+background: #ff0000;
+border-radius: 34px;
+padding: 18px 40px;
+color: white;
+font-weight: bold;
+font-size: 14px;
+text-transform: uppercase;
+text-decoration: none;
+display: inline-block;
+margin-bottom: 246px;
+}
 
+.title__hotturs {
+font-weight: bold;
+font-size: 36px;
+margin-bottom: 51px;
+}
+.offers__item {
+    min-height: 305px;
+    background: white;
+    border-radius: 4px;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 27px;
+    width: calc(100% / 3);
+    height: 449px;
+    color: black;
+}
+.hotturs__content {
+    padding: 30px 20px;
+}
+.info__icon {
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    margin-right: 10px; 
+}
+.info__icon--food {
+    background-image: url("meal.png") ;
+}
+.info__icon--calendar {
+    background-image: url("calendar.png") ;
+}
+.conditions__list {
     display: flex;
+    }
+.offers__list {
+display: flex;
+}
+.conditions__item .conditions {
+    display: flex;
+    }
+    .food__item.food{
+display: flex;
+}
+.offers__item :last-child{
+    margin-right: 0px;
+}
+.country__title {
+font-weight: bold;
+font-size: 24px;
+margin-bottom: 23px;
+}
+.conditions__list {
+    display: flex; 
     align-items: center;
-
-    color: #FFFFFF;
+    margin-right: 0;
+} 
+.text {
+    font-size: 14px;
+    margin-bottom: 25px;
 }
-
-.topic .rectangle {
-    /* Прямоугольник*/
-    position: absolute;
-    width: 168px;
-    height: 55px;
-    background: #F5170E;
-    border-radius: 35px;
-    left: 390px;
-    top: 474px;
-}
-
-.topic a {
-    /*ПОДРОБНЕЕ*/
-    position: absolute;
-    width: 88px;
-    height: 19px;
-    left: 430px;
-    top: 492px;
-
-    font-style: normal;
+.button__look {
+    background: #ffffff;
+    border-radius: 34px;
+    border: 1px solid red;
+    padding: 18px 28px;
+    color: rgb(255, 0, 0);
     font-weight: bold;
     font-size: 14px;
-    line-height: 19px;
-    /* identical to box height */
-
-    display: flex;
-    align-items: center;
     text-transform: uppercase;
-
-    color: #FFFFFF;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 246px;
+    border-color: red;
 }
-
-.hotturs strong {
-    position: absolute;
-    width: 273px;
-    height: 49px;
-    left: 392px;
-    top: 775px;
-
-    font-style: normal;
+.btn--color--red:hover {
+background: rgb(255, 0, 0);
+box-shadow: 0 0 25px 0 rosybrown;
+color: white;
+}
+.offers__item {
+    margin bottom: 70px;
+}
+    .newsdiscounts__topic {
+    margin-bottom: 51px;
     font-weight: bold;
     font-size: 36px;
-    line-height: 49px;
-    /* identical to box height */
-
-    display: flex;
-    align-items: flex-end;
-    color: #FFFFFF;
-}
-
-.hotturs .flame__icon {
-    position: absolute;
-    width: 21px;
-    height: 28px;
-    left: 677px;
-    top: 788px;
-    background: url(flame.png);
-}
-
-.offers__list .h5 {
-    /*Заголовки предложений*/
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 33px;
-    /* identical to box height */
-    display: flex;
-    align-items: flex-end;
-}
-
-.offers__list .breakfast__text {
-    /* Завтраки */
-    position: absolute;
-    width: 72px;
-    height: 21px;
-    top: 1108px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 21px;
-    /* identical to box height, or 131% */
-    display: flex;
-    align-items: center;
-    color: #666666;
-}
-
-.offers__list .p {
-    /*текст*/
-    position: absolute;
-    width: 324px;
-    height: 63px;
-    top: 1155.5px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 21px;
-    /* or 150% */
-    display: flex;
-    align-items: center;
-    color: #303030;
-}
-
-.offers__list .conditions__text {
-    /* 7- 12 ночей */
-    position: absolute;
-    width: 90px;
-    height: 22px;
-    top: 1108px;
-
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 22px;
-    /* identical to box height */
-    display: flex;
-    align-items: center;
-    color: #666666;
-}
-
-.offers__list .tailand__image {
-    position: absolute;
-    width: 362px;
-    height: 144px;
-    left: 389px;
-    top: 875px;
-    background: url(tailand.jpg);
-    border-radius: 5px 5px 0px 0px;
-}
-
-.offers__list .breakfast__pic {
-    /*завтрак картинка*/
-    position: absolute;
-    width: 36px;
-    height: 26px;
-    top: 1106px;
-    background: url(food.jpg);
-}
-
-.offers__list .conditions__pic {
-    /*Календарь*/
-    position: absolute;
-    width: 26px;
-    height: 26px;
-    top: 1106px;
-    background: url(calendar.jpg);
-}
-
-.offers__list .button {
-    /* Смотреть */
-    position: absolute;
-    width: 76px;
-    height: 19px;
-    top: 242px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 19px;
-    /* identical to box height */
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-}
-
-.block {
-    position: absolute;
-    width: 362px;
-    height: 305px;
-    top: 1019px;
-    background: #ffffff;
-    border-radius: 0px 0px 5px 5px;
-}
-
-.tailand__content .block {
-    left: 389px;
-}
-
-.tailand__content .h5 {
-    /* Тайланд */
-    position: absolute;
-    left: 411px;
-}
-
-.tailand__content .conditions__pic {
-    /*Календарь*/
-    left: 417px;
-}
-
-.tailand__content .breakfast__pic {
-    /*завтрак картинка*/
-    left: 571px;
-}
-
-.tailand__content .conditions__text {
-    /* 7- 12 ночей */
-    left: 453px;
-}
-
-.tailand__content .breakfast__text {
-    /* Завтраки */
-    left: 616px;
-}
-
-.tailand__content .p {
-    /*Текст предложений*/
-    left: 411px;
-}
-
-.tailand__content .button {
-    /* Смотреть */
-    left: 24px;
-    color: #F5170E;
-}
-
-/*Бали картинка*/
-
-.offers__list .bali__image {
-    position: absolute;
-    width: 362px;
-    height: 144px;
-    left: 778px;
-    top: 875px;
-    background: url(bali.jpg);
-    border-radius: 5px 5px 0px 0px;
-}
-
-
-.bali__content .block {
-    left: 778px;
-}
-
-.bali__content .h5 {
-    /* Бали */
-    left: 800px;
-}
-
-
-.bali__content .conditions__pic {
-    /*Календарь картинка*/
-    left: 806px;
-}
-
-.bali__content .breakfast__pic {
-    /*завтрак картинка*/
-    left: 960px;
-}
-
-.bali__content .conditions__text {
-    /* 7- 12 ночей */
-    left: 842px;
-}
-
-.bali__content .breakfast__text {
-    /* Завтраки */
-    left: 1005px;
-}
-
-.bali__content .p {
-    /*Текст предложений*/
-    left: 800px;
-}
-
-.bali__content .button {
-    /*Cмотреть */
-    left: 443px;
-    color: #FFFFFF;
-}
-
-/*Индонезия картинка */
-
-.offers__list .bali__image {
-    position: absolute;
-    width: 362px;
-    height: 144px;
-    left: 1167px;
-    top: 875px;
-
-    background: url(indonezia.jpg);
-    border-radius: 5px 5px 0px 0px;}
-
-    .indonezia__content .block {
-        left: 1167px;
+line-height: 49px;
     }
-
-    .indonezia__content .h5 {
-        /* Индонезия */
-        left: 1189px;
-    }
-
-
-    .indonezia__content .conditions__pic {
-        /*Календарь картинка*/
-        left: 1195px;
-    }
-
-    .indonezia__content .breakfast__pic {
-        /*завтрак картинка*/
-        left: 1349px;
-    }
-
-    .indonezia__content .conditions__text {
-        /* 7- 12 ночей */
-        left: 1231px;
-    }
-
-    .indonezia__content .breakfast__text {
-        /* Завтраки */
-        left: 1394px;
-    }
-
-    .indonezia__content .p {
-        /*Текст предложений*/
-        left: 1189px;
-    }
-
-    .indonezia__content .button {
-        /*Cмотреть */
-        left: 1222px;
-        color: #F5170E;
-    }
-
-    .newsdiscounts .p {
-        /* Новости и акции */
-        position: absolute;
-        width: 325px;
-        height: 49px;
-        left: 390px;
-        top: 1451px;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 36px;
-        line-height: 49px;
-        /* identical to box height */
-        display: flex;
-        align-items: flex-end;
-        color: #FFFFFF;
-    }
-
-    .newsdiscounts .image {
-        position: absolute;
-        width: 557px;
+    
+    .newsdiscounts__item {
+        width: 543px;
         height: 394px;
-        top: 1551px;
-        border-radius: 5px;
-    }
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        border-radius: 4px;
+        overflow: hidden;
+        margin-bottom: 57px;
+        margin-right: 25px;
+        width: calc(100% / 2);
+        }
 
-    .news .image {
-        left: 389px;
-        background: url(plain.jpg);
+    .image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     }
-
-    .discounts .image {
-        left: 971px;
-        background: url(surfer.jpg);
-    }
-
-    .newsdiscounts__itame {
-        /* декабрь 2019 */
+    
+    .newsdiscounts__content {
         position: absolute;
-        width: 94px;
-        height: 21px;
-        top: 1803.5px;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 21px;
-        display: flex;
-        align-items: center;
-        color: #FFFFFF;
-    }
-
-    .title__item {
-
-        /* Заголовки в акциях и новостях */
-        position: absolute;
-        width: 417px;
-        height: 36px;
-        top: 1837px;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 36px;
-        display: flex;
-        align-items: center;
-        color: #FFFFFF;
-    }
-
-    .discounts__itame {
-        /* Текста под зоголовками */
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        /* identical to box height, or 131% */
-        display: flex;
-        align-items: center;
-        color: #FFFFFF;
-    }
-
-    .news__list .newsdiscounts__itame {
-        left: 419px;
-    }
-
-    .news__list .title__itame {
-        left: 420px;
-    }
-
-    .news__list .discounts__itame {
-        left: 421px;
-        line-height: 21px;
-    }
-
-    .discounts__list .newsdiscounts__item {
-        left: 1000px;
-    }
-
-    .discounts__list .title__item {
-        left: 999px;
-    }
-
-    .discounts__list .discounts__item {
-        left: 1001px;
-        line-height: 24px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 25px: 30px;
     }
