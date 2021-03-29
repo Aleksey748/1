@@ -30,9 +30,8 @@ h1, h2, h3 ,h4, h5, h6 {
     width: 1140px;
 }
 .header {
-    height: 120px;
+
     position: relative;
-    margin-bottom: 76px;
 }
 .logo__pic {
     display: block;
@@ -75,6 +74,7 @@ font-size: 13px;
 color: black;
 margin-right: 35px;
 }
+
 .topic {
     width: 520px;
     margin-bottom: 127px;
@@ -92,7 +92,7 @@ margin-right: 35px;
     margin-bottom: 31px;
 }
 .hotturs{
-    margin-bottom: 127;
+    padding: 127px 0;
 }
 .button {
 background: #ff0000;
@@ -104,7 +104,6 @@ font-size: 14px;
 text-transform: uppercase;
 text-decoration: none;
 display: inline-block;
-margin-bottom: 246px;
 }
 
 .title__hotturs {
@@ -123,6 +122,10 @@ margin-bottom: 51px;
     height: 449px;
     color: black;
 }
+.offers__item :last-child {
+    margin-right: 0px;
+}
+
 .hotturs__content {
     padding: 30px 20px;
 }
@@ -133,24 +136,34 @@ margin-bottom: 51px;
     margin-right: 10px; 
 }
 .info__icon--food {
-    background-image: url("meal.png") ;
+    background-image: url("/my-project/meal.png") ;
+    background-repeat: no-repeat;
+    margin-right: 10px;
 }
 .info__icon--calendar {
-    background-image: url("calendar.png") ;
+    background-image: url("/my-project/calendar.png") ;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+ .conditions__text {
+    margin-right: 25px;
 }
 .conditions__list {
     display: flex;
     }
-.offers__list {
-display: flex;
+    .offers__list {  display: flex;
 }
+.food__item .food {
+    display: flex;
+    margin-right: 10px; 
+    }
 .conditions__item .conditions {
     display: flex;
+    margin-right: 10px;
     }
-    .food__item.food{
-display: flex;
-}
-.offers__item :last-child{
+
+
+.conditions__item :last-child{
     margin-right: 0px;
 }
 .country__title {
@@ -163,6 +176,7 @@ margin-bottom: 23px;
     align-items: center;
     margin-right: 0;
 } 
+
 .text {
     font-size: 14px;
     margin-bottom: 25px;
@@ -187,7 +201,7 @@ box-shadow: 0 0 25px 0 rosybrown;
 color: white;
 }
 .offers__item {
-    margin bottom: 70px;
+    margin-bottom: 70px;
 }
     .newsdiscounts__topic {
     margin-bottom: 51px;
@@ -195,7 +209,12 @@ color: white;
     font-size: 36px;
 line-height: 49px;
     }
-    
+   .offers__item:last-child {
+        margin-right: 0px;
+    }
+
+
+
     .newsdiscounts__item {
         width: 543px;
         height: 394px;
@@ -206,7 +225,6 @@ line-height: 49px;
         overflow: hidden;
         margin-bottom: 57px;
         margin-right: 25px;
-        width: calc(100% / 2);
         }
 
     .image {
@@ -216,10 +234,200 @@ line-height: 49px;
     object-fit: cover;
     }
     
+    .newsdiscounts__cover {
+
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;  
+    }
     .newsdiscounts__content {
         position: absolute;
         left: 0;
         right: 0;
         bottom: 0;
-        padding: 25px: 30px;
+        padding: 25px 30px;
+        min-height: 120px;
     }
+
+    .newsdiscounts__content .data {
+        font-size: 14px;
+        margin-bottom: 13px;
+    }
+    .newsdiscounts__content .title {
+        font-weight: bold;
+font-size: 24px;
+    }
+    .newsdiscounts__content .discounts {
+        font-size: 16px;
+    }
+
+    .newsdiscounts__list {
+        margin-bottom: 57px;
+    }
+
+  .newsdiscounts__item:last-child {
+        margin-right: 0px;
+    }
+
+.paginator {
+    text-align: center;
+
+}
+.paginator__display, .paginator__list {
+
+    display: inline-block;
+    vertical-align: middle;
+}
+.paginator__display {
+    margin-right: 36px;
+}
+.paginator__item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.paginator__prev {
+    display: block;
+    width: 32px;
+    height: 32px; 
+    border-radius: 50%;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+}
+.paginator__item paginator__item--active {
+background: #ffffff;
+}
+.paginator__list {
+line-height: 31px;
+}
+.paginator__display, .paginator__item {
+    margin-bottom: 152px;
+}
+
+
+
+.aboutus:before {
+content: "";
+display: inline-block;
+vertical-align: top;
+width: 490px;
+height: 505px;
+background: url(/my-project/gates.jpg) center center / cover no-repeat;
+}
+.about__image__text {
+    background: url(/my-project/mountains.jpg);
+    width: 785px;
+height: 455px;
+    padding: 70px 202px 66px 81px;
+    text-align: left;
+    display: inline-block;
+vertical-align: top;
+margin-left: -140px;
+ margin-top: 110px;
+}
+.about__image__text :last-child {
+    margin-right: 0;
+}
+
+.aboutus__title {
+    font-weight: bold;
+font-size: 36px;
+margin-bottom: 37px;
+}
+.aboutus__text {
+    margin-bottom: 43px;
+}
+.aboutus__text p {
+margin-bottom: 20px;
+}
+
+.aboutus__text p :last-child {
+    margin-bottom: 0;
+    }
+
+    p {
+        margin-top: 0;
+    }
+
+.about {
+    margin-bottom: 53px;
+}
+
+.footer {
+    height: 92px;
+    position: relative;
+}
+
+
+.menu2 {
+    position: absolute;
+    top: 31px;
+    left: 165px;
+    
+}
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+
+}
+.menu__link {
+
+        margin-right: 8px;
+        font-size: 14px;
+        text-decoration: none;
+        
+}
+.socialnetwork__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.socialnetwork__link {
+    display: block;
+    height: 36px;
+    width:36px ;
+    text-decoration: none;
+        }
+
+        .socialnetwork__item :last-child {
+            margin-right: 0;
+        }
+
+        .socialnetwork__list {
+top: 33px;
+right: 265px;
+position: absolute;
+        }
+
+.contacts__phone1 {
+    font-size: 26px;
+    text-decoration: none;
+}
+ 
+.socialnetwork__item--icon--telegram .socialnetwork__link {
+    background-image: url(/my-project/telegram.png);
+}
+.socialnetwork__item--icon--telegram .socialnetwork__link:hover {
+    background-image: url(/my-project/telegram-hover.png);
+}
+.socialnetwork__item--icon--vk .socialnetwork__link {
+    background-image: url(/my-project/vk.png);
+}
+.socialnetwork__item--icon--vk .socialnetwork__link:hover {
+    background-image: url(/my-project/vk-hover.png);
+}
+.socialnetwork__item--icon--f .socialnetwork__link {
+    background-image: url(/my-project/f.png);
+}
+.socialnetwork__item--icon--f .socialnetwork__link:hover {
+    background-image: url(/my-project/f-hover.png);
+}
+.socialnetwork__item--icon--in .socialnetwork__link {
+    background-image: url(/my-project/in.png);
+}
+.socialnetwork__item--icon--in .socialnetwork__link:hover {
+    background-image: url(/my-project/in-hover.png);
+}
