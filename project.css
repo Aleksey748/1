@@ -1,7 +1,7 @@
 
 body {
     font-family: "Open sanS; Helvetica; sans-serif";
-    background: #3a2f2f;
+    background-image: url(/my-project/background.jpg);
     color: white;
     font-size: 16px;
     line-height: 1.42;
