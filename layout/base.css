@@ -1,0 +1,52 @@
+body {
+    font-family:"Open Sans",Helvetica,sans-serif;
+    background: #001821;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 16px;
+    line-height: 1.42;
+    -webkit-font-smoothung: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+a {
+    color: inherit;
+}
+.main-page-wrapper {
+    background: url("/img/background.jpg") center top no-repeat, url(/img/background.jpg) bottom no-repeat;  
+}
+.servises-page-wrapper {
+    background: url("/img/elephant.jpg") center top no-repeat, url(/img/elephant.jpg) bottom no-repeat;  
+}
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    list-style: none;
+}
+h1, h2, h3 ,h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+* {
+    box-sizing: border-box;
+}
+.conteiner {
+    margin: 0 auto;
+    width: 1140px;
+}
+.asia__conteiner {
+    display: flex;
+    justify-content: space-between;
+flex-direction: column;
+min-height: 474px;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
