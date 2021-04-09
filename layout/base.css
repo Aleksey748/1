@@ -12,10 +12,10 @@ a {
     color: inherit;
 }
 .main-page-wrapper {
-    background: url("/img/background.jpg") center top no-repeat, url(/img/background.jpg) bottom no-repeat;  
+    background: url("/my-project/img/background.jpg") center top no-repeat, url(/img/background.jpg) bottom no-repeat;  
 }
 .servises-page-wrapper {
-    background: url("/img/elephant.jpg") center top no-repeat, url(/img/elephant.jpg) bottom no-repeat;  
+    background: url("/my-project/img/elephant.jpg") center top no-repeat, url(/img/elephant.jpg) bottom no-repeat;  
 }
 .wrapper {
     min-height: 100vh;
