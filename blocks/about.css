@@ -7,10 +7,10 @@ display: inline-block;
 vertical-align: top;
 width: 490px;
 height: 505px;
-background: url(./img/gates.jpg) center center / cover no-repeat;
+background: url(/my-project/img/gates.jpg) center center / cover no-repeat;
 }
 .about {
-background: url(./img/mountains.jpg);
+background: url(/my-project/img/mountains.jpg);
 width: 785px;
 height: 455px;
 padding: 70px 202px 66px 81px;
