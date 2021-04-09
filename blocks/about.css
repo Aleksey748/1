@@ -7,10 +7,10 @@ display: inline-block;
 vertical-align: top;
 width: 490px;
 height: 505px;
-background: url(/img/gates.jpg) center center / cover no-repeat;
+background: url(./img/gates.jpg) center center / cover no-repeat;
 }
 .about {
-background: url(/img/mountains.jpg);
+background: url(./img/mountains.jpg);
 width: 785px;
 height: 455px;
 padding: 70px 202px 66px 81px;
@@ -23,16 +23,16 @@ margin-top: 110px;
 .about__image__text :last-child {
 margin-right: 0;
 }
-.aboutus__title {
+.about__title {
 font-weight: bold;
 font-size: 36px;
 margin-bottom: 37px;
 }
-.aboutus__text {
+.about__text {
 margin-bottom: 43px;
 }
 
-.aboutus__text p :last-child {
+.about__text p :last-child {
 margin-bottom: 0;
 }
 p {
@@ -40,8 +40,4 @@ margin-top: 0;
 }
 .about {
 padding: 53px 0;
-}
-.container__about {
-    width: 1150px;
-
 }
