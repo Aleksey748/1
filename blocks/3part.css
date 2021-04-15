@@ -1,0 +1,123 @@
+.review {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    background: #F4F5F5;
+}
+
+.review__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+}
+
+.review__avatar {
+    width: 557px;
+    height: 542px;
+    overflow: hidden;
+
+}
+
+.review__user {
+    display: flex;
+    align-items: center;
+    color: #2E77A4;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 11px;
+}
+
+.review__user:after {
+    content: url(../img/vk-blue.png);
+    height: 29px;
+}
+
+.review__tags {
+    display: flex;
+    align-items: flex-start;
+}
+
+.tag {
+    font-size: 13px;
+    color: #303030;
+    padding: 10px 18px;
+    border-radius: 35px;
+    background: #E7E7E7;
+}
+
+.tag--bg--green {
+    background: #B9EAE4;
+}
+
+.review__title {
+    font-weight: bold;
+    font-size: 30px;
+    color: #1A1B1E;
+    margin-bottom: 13px;
+}
+
+.review__content-text {
+    margin-bottom: 48px;
+}
+
+.review__date {
+    font-size: 14px;
+    color: #1A1B1E;
+    font-weight: 600;
+}
+
+.reviews__item {
+    margin-bottom: 20px;
+}
+
+.reviews {
+    column-count: 2;
+    column-gap: 17px;
+}
+
+.separator {
+    background-image: url(../img/Rectangle.jpg) url(../img/couple.jpg) right 30% bottom no-repeat;
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.separator__content {
+    font-weight: bold;
+    font-size: 48px;
+    width: 595px;
+}
+
+.form__row {
+    display: flex;
+    margin-bottom: 26px;
+}
+
+.form__input {
+    flex: 1;
+    margin-right: 30px;
+    border-radius: 5px;
+    border: none;
+    background: #FFFFFF;
+    padding: 21px 30px;
+    font-size: 18px;
+    color: #1A1B1E;
+}
+
+.form__input :last-child {
+    margin-right: 0px;
+}
+
+.form__input ::placeholder {
+    color: #666666;
+}
+.inner--bg--grey {
+background: #F4F5F5;
+}
+.form__input--texrarea {
+color: #666666;
+height: 235px;
+}
+
