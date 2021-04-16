@@ -78,7 +78,7 @@
 }
 
 .separator {
-    background: url(./img/Rectangle.jpg); 
+    background: url(/my-project/img/Rectangle.jpg); 
     min-height: 360px;
     display: flex;
     flex-direction: column;
