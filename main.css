@@ -9,5 +9,6 @@
 @import url('./blocks/about.css');
 @import url('./blocks/footer.css');
 
-@import url('./blocks/services.css');
-@import url('./blocks/3part.css');
+@import url('./services.css');
+@import url('./3part.css');
+@import url('./welcome.css');
