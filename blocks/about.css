@@ -13,6 +13,7 @@ vertical-align: top;
 width: 490px;
 height: 505px;
 background: url(/my-project/img/gates.jpg) center center / cover no-repeat;
+z-index: 1;
 }
 .about {
 width: 785px;
@@ -26,7 +27,7 @@ margin-top: 110px;
 position: relative;
 }
 .about__image__text {
-    background: url(/img/mountains.jpg);
+    background: url(/my-project//mountains.jpg);
     position: absolute;
     bottom: 0;
     right: 0;
