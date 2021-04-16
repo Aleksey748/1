@@ -47,6 +47,6 @@ flex-direction: column;
 min-height: 300px;
 }
 img {
-    display: block;
+    display: inline-block;
     max-width: 100%;
 }
