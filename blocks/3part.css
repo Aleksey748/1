@@ -78,13 +78,21 @@
 }
 
 .separator {
-    background: url(/my-project/img/Rectangle.jpg); 
+    background: url(../img/Rectangle.jpg); 
     background-position:no-repeat;
     min-height: 360px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+}
+.couple {
+    position: absolute;
+margin-right: 30%;
+z-index: 2;
+background: url(../img/couple.jpg);
 }
 .separator__title {
 font-weight: bold;
