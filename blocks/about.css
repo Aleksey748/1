@@ -1,6 +1,11 @@
 .about {
     color: black;
 }
+.aboutus {
+    position: absolute;
+    top: -102px;
+    z-index: 1;
+}
 .aboutus:before {
 content: "";
 display: inline-block;
@@ -10,7 +15,6 @@ height: 505px;
 background: url(/my-project/img/gates.jpg) center center / cover no-repeat;
 }
 .about {
-background: url(/my-project/img/mountains.jpg);
 width: 785px;
 height: 455px;
 padding: 70px 202px 66px 81px;
@@ -19,6 +23,16 @@ display: inline-block;
 vertical-align: top;
 margin-left: -140px;
 margin-top: 110px;
+position: relative;
+}
+.about__image__text {
+    background: url(/img/mountains.jpg);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 785px;
+    height: 455px;
+    z-index: 2;
 }
 .about__image__text :last-child {
 margin-right: 0;
