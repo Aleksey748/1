@@ -27,7 +27,7 @@ margin-top: 110px;
 position: relative;
 }
 .about__image__text {
-    background: url(/my-project//mountains.jpg);
+    background: url(/my-project/img/mountains.jpg);
     position: absolute;
     bottom: 0;
     right: 0;
