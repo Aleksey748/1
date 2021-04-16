@@ -22,7 +22,7 @@ padding: 70px 202px 66px 81px;
 text-align: left;
 display: inline-block;
 vertical-align: top;
-margin-left: -140px;
+margin-left: 5px;
 margin-top: 110px;
 position: relative;
 }
@@ -30,8 +30,8 @@ position: relative;
     background: url(/my-project/img/mountains.jpg);
     position: absolute;
     bottom: 0;
-    right: 0;
-    width: 785px;
+    right: -648px;
+    width: 788px;
     height: 455px;
     z-index: 2;
 }
